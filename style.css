@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef5f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-pink {
+    background-color: #ff85a2;
+  }
+  
+  .bg-lightpink {
+    background-color: #ffc1d6;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .search-bar input {
+    border: 2px solid #ff85a2;
+  }
+  
+  .search-btn {
+    background-color: #ff85a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #e6708a;
+  }
+  
+  .country-card {
+    width: 300px;
+    border: 1px solid #ff85a2;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+  }
+  
+  .country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .country-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .weather-btn {
+    background-color: #ff85a2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .weather-btn:hover {
+    background-color: #e6708a;
+  }
+  
+  .weather-info {
+    font-size: 14px;
+    text-align: left;
+  }
+  
